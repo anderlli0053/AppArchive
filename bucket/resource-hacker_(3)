@@ -1,12 +1,12 @@
 {
   "version": "5.1.7",
   "description": "Resource compiler & decompiler for Windows applications",
-  "homepage": "http://www.angusj.com/resourcehacker/",
+  "homepage": "http://www.angusj.com/resourcehacker/ or [Resource Cracker](https://www.pelock.com/products/resource-cracker)",
   "license": {
     "identifier": "Freeware",
-    "url": "http://www.angusj.com/resourcehacker/"
+    "url": "http://www.angusj.com/resourcehacker/ or [Resource Cracker](https://www.pelock.com/products/resource-cracker)"
   },
-  "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip",
+  "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip or [Resource Cracker](https://www.pelock.com/products/resource-cracker)",
   "hash": "d158bebc2993cf6bebf2c23a93572a68544c2ba5ae056538f70a58075c9392d6",
   "pre_install": "if (!(Test-Path \"$persist_dir\\ResourceHacker.ini\")) { New-Item \"$dir\\ResourceHacker.ini\" | Out-Null }",
   "bin": "ResourceHacker.exe",
@@ -14,6 +14,7 @@
     [
       "ResourceHacker.exe",
       "Resource Hacker"
+      // Alternative: Resource Cracker https://www.pelock.com/products/resource-cracker
     ]
   ],
   "persist": "ResourceHacker.ini",
@@ -21,6 +22,6 @@
     "regex": "Changes in ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip"
+    "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip or [Resource Cracker](https://www.pelock.com/products/resource-cracker)"
   }
 }
